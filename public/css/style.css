@@ -361,8 +361,8 @@ header .logo img {
     margin-top: 5px !important;
     font-size: 24px;
     border-radius: 100%;
-    color: #bd0745;
-    border: 1px solid #bd0745;
+    color: #01B8A4;
+    border: 1px solid #01B8A4;
 }
 
 .header-extras li:first-child {
@@ -385,7 +385,7 @@ header .logo img {
     font-weight: normal;
     text-transform: lowercase;
     font-weight: 600;
-    color: #bd0745
+    color: #01B8A4
 }
 
 .affix#alert .logo img {
@@ -403,7 +403,7 @@ header .logo img {
 
 .navborder .nav>li>a.active {
     color: #f1693b;
-    border-top: #bd0745 1px solid;
+    border-top: #01B8A4 1px solid;
     background: #f6f6f6;
     margin-top: -1px;
 }
@@ -460,7 +460,7 @@ header .logo img {
 .navborder .navbar-nav>li>.dropdown-menu {
     right: auto;
     left: 0;
-    border-top: 1px solid #bd0745;
+    border-top: 1px solid #01B8A4;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
@@ -473,12 +473,12 @@ header .logo img {
 .navborder .dropdown-menu>li>a:hover {
     color: #fff;
     text-decoration: none;
-    background-color: #bd0745;
+    background-color: #01B8A4;
 }
 
 .navborder .navbar-nav>.active>a {
-    color: #bd0745;
-    border-top: #bd0745 1px solid;
+    color: #01B8A4;
+    border-top: #01B8A4 1px solid;
     background: #f6f6f6;
     margin-top: -1px;
 }
@@ -486,9 +486,9 @@ header .logo img {
 .navborder .nav>li>a:focus,
 .nav>li>a:hover {
     text-decoration: none;
-    color: #bd0745;
+    color: #01B8A4;
     background-color: #f6f6f6;
-    border-top: 1px solid #bd0745;
+    border-top: 1px solid #01B8A4;
     margin-top: -1px;
 }
 
@@ -496,8 +496,8 @@ header .logo img {
 .nav .open>a:focus,
 .nav .open>a:hover {
     background-color: #f6f6f6;
-    border-color: #bd0745;
-    color: #bd0745;
+    border-color: #01B8A4;
+    color: #01B8A4;
 }
 
 .bs-slider .bs-slider-overlay {
@@ -540,13 +540,13 @@ header .logo img {
 
 .control-round .carousel-control.left {
     left: 1%;
-    background: #bd0745;
+    background: #01B8A4;
     color: #fff;
 }
 
 .control-round .carousel-control.right {
     right: 1%;
-    background: #bd0745;
+    background: #01B8A4;
     color: #fff;
 }
 
@@ -1047,7 +1047,7 @@ header .logo img {
     content: "";
     position: absolute;
     left: 0;
-    background: #bd0745;
+    background: #01B8A4;
     height: 1px;
     width: 80px;
     bottom: -1px;
@@ -1187,9 +1187,9 @@ header .logo img {
 }
 
 .btn-read {
-    background: #bd0745;
+    background: #01B8A4;
     text-align: center;
-    border: 1px solid #bd0745;
+    border: 1px solid #01B8A4;
     outline: 0;
     color: #fff;
     font-weight: 700;
@@ -1355,8 +1355,8 @@ header .logo img {
     height: 42px;
     line-height: 42px;
     text-align: center;
-    border: 1px solid #bd0745;
-    background-color: #bd0745;
+    border: 1px solid #01B8A4;
+    background-color: #01B8A4;
     color: #fff;
     transform: translateY(-50%);
     font-size: 22px;
@@ -1375,7 +1375,7 @@ header .logo img {
 }
 
 .owl-carousel .owl-dot.active {
-    background-color: #bd0745;
+    background-color: #01B8A4;
 }
 
 @media only screen and (max-width: 480px) {}
@@ -1570,7 +1570,7 @@ header .logo img {
     padding: 30px 30px 20px 40px;
     display: block;
     color: #fff;
-    background-color: #bd0745;
+    background-color: #01B8A4;
     /* width: 32.5% !important; */
 }
 
@@ -1736,7 +1736,7 @@ footer:after {
 
 .company-social a:hover {
     color: #fff;
-    background: #bd0745;
+    background: #01B8A4;
     border: 0px solid #fff;
 }
 
@@ -2100,7 +2100,7 @@ footer:after {
     display: inline-block;
     font-size: 14px;
     border-radius: 30px;
-    background: #bd0745;
+    background: #01B8A4;
     text-decoration: none !important;
     color: #fff !important;
     text-align: center;
@@ -2155,7 +2155,7 @@ footer:after {
     font-size: 30px;
     line-height: 40px;
     height: 40px;
-    background: #bd0745;
+    background: #01B8A4;
     position: fixed;
     right: 20px;
     text-align: center;
@@ -2235,7 +2235,7 @@ footer:after {
 }
 
 .accrodion2 .panel-default>.panel-heading {
-    background-color: #bd0745;
+    background-color: #01B8A4;
     color: #fff;
     padding: 15px 15px;
 }
@@ -2248,7 +2248,7 @@ footer:after {
 }
 
 .newstab {
-    background: #bd0745;
+    background: #01B8A4;
     color: #fff;
     padding: 7px 15px;
     font-size: 15px;
@@ -2259,7 +2259,7 @@ footer:after {
 }
 
 .catetab {
-    background: #bd0745;
+    background: #01B8A4;
     color: #fff;
     padding: 10px 20px;
     font-size: 18px;
@@ -2404,7 +2404,7 @@ footer:after {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background: #bd0745;
+    background: #01B8A4;
     padding: 15px 20px;
 }
 
@@ -3100,7 +3100,7 @@ textarea {
 }
 
 .whychooses:hover .whychooses-icon {
-    background: #bd0745;
+    background: #01B8A4;
     -webkit-transition: all 0.5s ease-out;
     -moz-transition: all 0.5s ease-out;
     -ms-transition: all 0.5s ease-out;
@@ -3126,7 +3126,7 @@ textarea {
 }
 
 .whychooses:hover h3 a {
-    color: #bd0745;
+    color: #01B8A4;
     text-decoration: none;
 }
 
@@ -3180,7 +3180,7 @@ textarea {
 }
 
 .misssion {
-    border-top: 4px solid #bd0745;
+    border-top: 4px solid #01B8A4;
     background: #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
     padding-bottom: 50px;
@@ -3221,7 +3221,7 @@ textarea {
     display: inline-block;
     font-size: 14px;
     border-radius: 30px;
-    background: #bd0745;
+    background: #01B8A4;
     text-decoration: none !important;
     color: #fff !important;
     text-align: center;
@@ -3273,7 +3273,7 @@ ul.square li {
 }
 
 .latestevent h4 a {
-    color: #bd0745;
+    color: #01B8A4;
 }
 
 .latestevent img {
@@ -3329,7 +3329,7 @@ ul.square li {
 }
 
 #cookieConsent a.cookieConsentOK {
-    background-color: #bd0745;
+    background-color: #01B8A4;
     color: #fff;
     display: inline-block;
     border-radius: 20px;
