@@ -3,7 +3,6 @@
 .container{background-color: rgb(232, 242, 245);padding: 50px 40px 20px;margin-top: 20px;margin-bottom: 20px;overflow: hidden;box-shadow: 5px 5px 25px #a7a7a7}
 .tag{text-align: center;font-size: 1.1rem}
 .fa-heart{color: rgba(255, 230, 0, 0.959);font-size: 30px}
-.card{height: 320px;padding: 10px 20px;border: none;box-shadow: -1px 3px 5px #a7a7a7}
 .testimonial{font-size: 0.9rem;line-height: 1.4rem;font-weight: 500}
 .active-star{color: #FBC02D;margin-bottom: 8px}
 .active-star:hover{color: #F9A825;cursor: pointer}
