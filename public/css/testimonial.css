@@ -7,7 +7,7 @@
 }
 
 body{
- background: #eeeff4;
+ background: #72afd2;
 }
 
 .wrapper .header{
@@ -55,7 +55,7 @@ body{
 }
 
 .cards_wrap .card_item .role_name{
-	color: #e36686;
+	color: #72afd2;
 	font-weight: 900;
 	letter-spacing: 2px;
 	text-transform: uppercase;
