@@ -3701,3 +3701,157 @@ ul.square li {
       text-align: center; }
 	  
 	  @media (min-width:576px){.col-sm{flex:1 0 0%}.row-cols-sm-auto>*{flex:0 0 auto;width:auto}.row-cols-sm-1>*{flex:0 0 auto;width:100%}.row-cols-sm-2>*{flex:0 0 auto;width:50%}.row-cols-sm-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-sm-4>*{flex:0 0 auto;width:25%}.row-cols-sm-5>*{flex:0 0 auto;width:20%}.row-cols-sm-6>*{flex:0 0 auto;width:16.6666666667%}.col-sm-auto{flex:0 0 auto;width:auto}.col-sm-1{flex:0 0 auto;width:8.3333333333%}.col-sm-2{flex:0 0 auto;width:16.6666666667%}.col-sm-3{flex:0 0 auto;width:25%}.col-sm-4{flex:0 0 auto;width:33.3333333333%}.col-sm-5{flex:0 0 auto;width:41.6666666667%}.col-sm-6{flex:0 0 auto;width:50%}.col-sm-7{flex:0 0 auto;width:58.3333333333%}.col-sm-8{flex:0 0 auto;width:66.6666666667%}.col-sm-9{flex:0 0 auto;width:75%}.col-sm-10{flex:0 0 auto;width:83.3333333333%}.col-sm-11{flex:0 0 auto;width:91.6666666667%}.col-sm-12{flex:0 0 auto;width:100%}
+	  
+	  
+	  .dsw-four-box {
+    background: #036a79;
+    margin-top: 200px;
+}
+
+.four-box-wrap {
+    position: relative;
+}
+
+.dsw-four-box .four-box-holder {
+    height: 100%;
+    height: 450px !important;
+}
+
+.dsw-four-box .four-box-holder ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: visible;
+    height: 100%;
+}
+
+.dsw-four-box .four-box-holder ul li:nth-child(1) {
+    background: url(../images/four-box-3.png);
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform-origin: 300% 0;
+}
+
+.dsw-four-box .four-box-holder ul li:nth-child(2) {
+    background: url(../images/four-box-2.png);
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform-origin: 200% 0;
+}
+
+.dsw-four-box .four-box-holder ul li:nth-child(3) {
+    background: url(../images/four-box-1.png);
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform-origin: 100% 0;
+}
+
+.dsw-four-box .four-box-holder ul li:nth-child(4) {
+    background: url(../images/admissions.png);
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform-origin: 0 0;
+    transform: skewY(-12deg);
+}
+
+.dsw-four-box .four-box-holder ul li {
+    width: 25%;
+    padding: 60px 40px 50px;
+    text-align: center;
+    list-style-type: none;
+    transform: skewY(4deg);
+    transition: 1.2s transform ease-out;
+    position: relative;
+    height: 100%;
+}
+
+.dsw-four-box .four-box-holder ul::after {
+    background: white;
+    border-top: 2px solid hsl(0, 0%, 17%);
+}
+
+.dsw-four-box .four-box-holder ul::after {
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5.1vw;
+    z-index: 95;
+}
+
+.four-box-holder-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.four-box-holder-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.content-dsw {
+    float: left;
+    width: 25%;
+    padding: 30px 40px 50px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 1em 1em;
+}
+
+.content-dsw {
+    top: 0;
+    left: 0;
+}
+
+.content-dsw img.icon {
+    padding-bottom: 25px;
+}
+
+.dsw-four-box .four-box-holder-content .content-dsw h2 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.dsw-four-box .four-box-holder-content .content-dsw p {
+    height: 110px;
+    padding-bottom: 50px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.btn-dsw a {
+    color: #000;
+    background: #ffffff;
+    padding: 0.9rem 1.6rem;
+    border-radius: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #036a79;
+}
+
+.btn-dsw a:hover {
+    box-shadow: 0 15px 50px 0 rgb(52 227 109 / 30%), 0 10px 15px -5px rgb(38 230 196 / 30%);
+}
