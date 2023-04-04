@@ -54,6 +54,10 @@ h6 {
     font-weight: normal;
 }
 
+
+.bg-colr {
+  background: #fff9f6; }
+  
 .mt0 {
     margin-top: 0 !important
 }
@@ -3669,3 +3673,29 @@ ul.square li {
     display: inline-block;
     border-bottom: 2px solid #6f1a52;
 }
+
+.counter-box {
+  padding: 20px 40px;
+  background-color: #fff;
+  box-shadow: 0px 5px 20px 3px rgba(230, 233, 249, 0.9);
+  border: 1px solid #eee;
+  border-radius: 16px;
+  width: 65%;
+  transform: translate(0, 50px); }
+  .counter-box .row .counter-data {
+    width: 100%;
+    margin-bottom: 0; }
+    .counter-box .row .counter-data .counter-data-heading {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .counter-box .row .counter-data .counter-data-heading h5 {
+        font-size: 34px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 0;
+        color: #f66d1d; }
+    .counter-box .row .counter-data p {
+      font-size: 16px;
+      font-weight: 500;
+      text-align: center; }
