@@ -1,0 +1,175 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ADYPU-School of Information technology</title>
+    <link rel="icon" href="public/images/favicon.png">
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="http://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <!-- Styles -->
+    <!-- Vendor CSS Files -->
+  <link href="public/css/bootstrap.min.css" rel="stylesheet">
+  <link href="public/css/bootstrap-datepicker3.css" rel="stylesheet">
+  <link href="public/css/dropify.min.css" rel="stylesheet">
+  <link href="public/css/owl.carousel.css" rel="stylesheet">
+  <link href="public/css/bootsnav.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" integrity="sha512-gRH0EcIcYBFkQTnbpO8k0WlsD20x5VzjhOA1Og8+ZUAhcMUCvd+APD35FJw3GzHAP3e+mP28YcDJxVr745loHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
+  <link href="public/css/tab.css" rel="stylesheet">
+  <link href="public/css/style.css" rel="stylesheet">
+  <link href="public/css/custom.css" rel="stylesheet">
+  <link href="public/css/testimonial.css" rel="stylesheet">
+  <link href="public/css/slider-zoom.css" rel="stylesheet">
+  
+  
+ 
+      
+    
+</head>
+
+<body>
+
+<div class="row">
+        <div class="col-md-10 col-md-offset-1">
+
+
+            <div class="strip_all_courses_list wow fadeIn animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="course_list_desc2">
+                            <h2>Program Educational Objectives</h2>
+                            <hr>
+
+                            <p style="color:orange;"><li>PEO-1 : 	To prepare graduates as leading professionals globally in government, academia, corporate and research organizations along with entrepreneurial pursuits.</li>
+<li>PEO-2 :	To prepare graduates with an ability to articulate and solve problems in the field of Computer Science and Engineering specially in Data Science.</li>
+<li>PEO-3 :	To prepare the graduates with strong learning quotients having adaptability to the constantly changing technological environment.</li>
+<li>PEO-4 :	To prepare the graduates to lead and initiate ethically the professional and organizational goals in interdisciplinary team and obtain desired results.</li>
+</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="course_list_desc2">
+                            <h2>Program Outcomes</h2>
+							<br>
+							The program must then formulate a set of program outcomes (knowledge, skills, and attitudes the program graduates should have) that directly address the educational objectives and encompass certain specified outcomes
+                            <hr>
+<ul st<yle="color:orange;">
+<li>1.	Engineering knowledge: 	Apply the knowledge of mathematics, science, engineering fundamentals, and computer science and engineering specialization to solve the complex engineering problems.</li>
+<li>2.	Problem analysis:	Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using mathematics, basic sciences, and computer science and engineering specially in the field of Data Science.</li>
+</ul>
+                        </div>
+                    </div>
+                   
+
+
+</body>
+
+
+
+ <!-- Scripts -->
+    
+
+    <!-- Vendor JS Files -->
+    <script src="public/js/jquery.min.js"></script>
+    <script src="public/js/jquery.counterup.min.js"></script>
+    <script src="public/js/jquery.waypoints.min.js"></script>
+    <script src="public/js/bootstrap.min.js"></script>
+    <script src="public/js/bootsnav.js"></script>
+
+    <script src="public/js/owl.carousel.min.js"></script>
+    <script src="public/js/dropify.min.js"></script>
+    <script src="public/js/moment.min.js"></script>
+    <script src="public/js/ss-lightbox.js"></script>
+    <script src="public/js/custom.js"></script>
+
+
+    <!-- Template Main JS File -->
+    <script src="public/js/main.html"></script>
+    <script src="public/js/tabs.js"></script>
+    <script>
+        new CBPFWTabs( document.getElementById( 'tabs' ) );
+    </script>
+
+    <script type="text/javascript">
+        // $( document ).ready(function() {
+        //      $('.box-carousel').slick({
+        //        autoplay:true,
+        //        autoplaySpeed:1200,
+        //     dots: false,
+        //     arrows: true,
+        //     slidesToShow: 5,
+        //     slidesToScroll: 1,
+        //     prevArrow: "<button type='button' class='mission-prev-arrow'></button>",
+        //     nextArrow: "<button type='button' class='mission-next-arrow'></button>"
+        //   });
+        
+        // });
+
+        //Initialise Bootstrap Carousel Touch Slider
+        // Curently there are no option available.
+
+        $('#bootstrap-touch-slider').bsTouchSlider();
+    </script>
+	
+	<script>
+const slides = document.querySelectorAll('.slide');
+const controls = document.querySelectorAll('.control');
+let activeSlide = 0;
+let prevActive = 0;
+
+changeSlides();
+let int = setInterval(changeSlides, 7000);
+
+function changeSlides() {
+	slides[prevActive].classList.remove('active');
+	controls[prevActive].classList.remove('active');
+
+	slides[activeSlide].classList.add('active');
+	controls[activeSlide].classList.add('active');
+	
+	prevActive = activeSlide++;
+	
+	if(activeSlide >= slides.length) {
+		activeSlide = 0;
+	}
+	
+	console.log(prevActive, activeSlide);
+}
+
+controls.forEach(control => {
+	control.addEventListener('click', () => {
+		let idx = [...controls].findIndex(c => c === control);
+		activeSlide = idx;
+
+		changeSlides();
+
+		clearInterval(int);
+		int = setInterval(changeSlides, 7000);
+	});
+});
+       
+$('.counter-count').each(function () {
+		$(this).prop('Counter', 0).animate({
+			Counter: $(this).text()
+		}, {
+			duration: 5000,
+			easing: 'swing',
+			step: function (now) {
+				$(this).text(Math.ceil(now));
+			}
+		});
+	});	   </script>
+		
+
+		
+    
+</body>
+
+
+</html>
