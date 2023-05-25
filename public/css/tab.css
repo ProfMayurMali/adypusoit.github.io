@@ -151,3 +151,11 @@
 		margin-right:0;
 	}
 }
+
+    .dzlr{
+	border-radius: 50%;
+	padding: 20%;
+	outline-color: white;
+	align-items: center;
+	align-self: self-start;
+}
